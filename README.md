@@ -110,6 +110,8 @@ sudo systemctl enable --now grafana-server
 
 ---
 
+Refer to some of the Dashboards that we have create here - [Dashboards](./Dashboards)
+
 ## 📦 Step 4: Install & Configure Loki
 
 ```bash
@@ -162,6 +164,8 @@ nohup promtail -config.file=/etc/promtail-config.yml > /var/log/promtail.log 2>&
 - Add **Loki** data source in Grafana (port `3100`)
 - Use **Explore** tab to view logs
 - Filter logs using labels like `{job="app", type="access"}`
+
+The Logs will be available for querying like this - [Dashboards/Logs_3_Services.jpg](./Dashboards/Logs_3_Services.jpg)
 
 
 Happy Observability! 🌟
