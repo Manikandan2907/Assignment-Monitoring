@@ -71,8 +71,9 @@ cd /opt
 wget https://github.com/prometheus/prometheus/releases/download/v2.52.0/prometheus-2.52.0.linux-amd64.tar.gz
 tar -xzf prometheus-2.52.0.linux-amd64.tar.gz
 mv prometheus-2.52.0.linux-amd64 prometheus
-vim /opt/prometheus/prometheus.yml   # Refer to the file on this Repo - [Prometheus/prometheus.yml](./Prometheus/prometheus.yml)
+vim /opt/prometheus/prometheus.yml  
 ```
+Refer to the config file: [Prometheus/prometheus.yml](./Prometheus/prometheus.yml)
 
 Start Prometheus:
 ```bash
@@ -121,8 +122,10 @@ sudo mv loki-linux-amd64 /usr/local/bin/loki
 
 Create config:
 ```bash
-vim /etc/loki-config.yml   # Copy from this repo [Loki/loki-config.yml](./Loki/loki-config.yml)
+vim /etc/loki-config.yml   
 ```
+
+Copy from this repo [Loki/loki-config.yml](./Loki/loki-config.yml)
 
 Run Loki:
 ```bash
@@ -143,8 +146,9 @@ chmod +x /usr/local/bin/promtail
 
 Create config:
 ```bash
-vim /etc/promtail-config.yml   # Refer the yml file on this Repo [Promtail/promtail-config.yml](./Promtail/promtail-config.yml)
+vim /etc/promtail-config.yml   
 ```
+Refer the yml file on this Repo [Promtail/promtail-config.yml](./Promtail/promtail-config.yml)
 
 Run Promtail:
 ```bash
