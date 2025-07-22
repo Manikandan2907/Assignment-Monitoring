@@ -1,0 +1,46 @@
+2025-07-22 07:53:03.924  INFO 10975 --- [main] c.g.s.SpringBootTestApplication          : Starting SpringBootTestApplication using Java 17.0.15 on ip-172-31-80-62.ec2.internal with PID 10975 (/home/Assignment-App/target/classes started by root in /home/Assignment-App)
+2025-07-22 07:53:03.927  INFO 10975 --- [main] c.g.s.SpringBootTestApplication          : The following 1 profile is active: "dev"
+2025-07-22 07:53:04.976  INFO 10975 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-07-22 07:53:05.024  INFO 10975 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 41 ms. Found 2 JPA repository interfaces.
+2025-07-22 07:53:05.257  INFO 10975 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=3361b1ce-2ba2-3b9f-8516-af9222cd08d2
+2025-07-22 07:53:05.980  INFO 10975 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9090 (http)
+2025-07-22 07:53:05.990  INFO 10975 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-07-22 07:53:05.990  INFO 10975 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
+2025-07-22 07:53:06.099  INFO 10975 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-07-22 07:53:06.099  INFO 10975 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2090 ms
+2025-07-22 07:53:06.381  INFO 10975 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-07-22 07:53:06.600  INFO 10975 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-07-22 07:53:06.612  INFO 10975 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:database'
+2025-07-22 07:53:06.835  INFO 10975 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-07-22 07:53:06.873  INFO 10975 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.15.Final
+2025-07-22 07:53:07.002  INFO 10975 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2025-07-22 07:53:07.108  INFO 10975 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2025-07-22 07:53:07.701  INFO 10975 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2025-07-22 07:53:07.709  INFO 10975 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-07-22 07:53:08.428  WARN 10975 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-07-22 07:53:08.561  INFO 10975 --- [main] c.g.s.service.impl.AddressServiceImpl    : Caches are cleared
+2025-07-22 07:53:09.944  INFO 10975 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 3 endpoint(s) beneath base path '/actuator'
+2025-07-22 07:53:10.005  INFO 10975 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9090 (http) with context path ''
+2025-07-22 07:53:10.030  INFO 10975 --- [main] c.g.s.SpringBootTestApplication          : Started SpringBootTestApplication in 6.605 seconds (JVM running for 6.961)
+2025-07-22 07:53:10.038  INFO 10975 --- [scheduling-1] c.g.s.service.impl.AddressServiceImpl    : Caches are cleared
+2025-07-22 07:53:18.113  INFO 10975 --- [http-nio-9090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-07-22 07:53:18.114  INFO 10975 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-07-22 07:53:18.115  INFO 10975 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-07-22 07:53:20.029  INFO 10975 --- [scheduling-1] c.g.s.service.impl.AddressServiceImpl    : Caches are cleared
+2025-07-22 07:53:30.029  INFO 10975 --- [scheduling-1] c.g.s.service.impl.AddressServiceImpl    : Caches are cleared
+2025-07-22 07:53:40.029  INFO 10975 --- [scheduling-1] c.g.s.service.impl.AddressServiceImpl    : Caches are cleared
+2025-07-22 07:53:50.029  INFO 10975 --- [scheduling-1] c.g.s.service.impl.AddressServiceImpl    : Caches are cleared
+2025-07-22 07:54:00.029  INFO 10975 --- [scheduling-1] c.g.s.service.impl.AddressServiceImpl    : Caches are cleared
+2025-07-22 07:54:10.029  INFO 10975 --- [scheduling-1] c.g.s.service.impl.AddressServiceImpl    : Caches are cleared
+2025-07-22 07:54:20.029  INFO 10975 --- [scheduling-1] c.g.s.service.impl.AddressServiceImpl    : Caches are cleared
+2025-07-22 07:54:30.029  INFO 10975 --- [scheduling-1] c.g.s.service.impl.AddressServiceImpl    : Caches are cleared
+2025-07-22 07:54:40.029  INFO 10975 --- [scheduling-1] c.g.s.service.impl.AddressServiceImpl    : Caches are cleared
+2025-07-22 07:54:50.029  INFO 10975 --- [scheduling-1] c.g.s.service.impl.AddressServiceImpl    : Caches are cleared
+2025-07-22 07:55:00.029  INFO 10975 --- [scheduling-1] c.g.s.service.impl.AddressServiceImpl    : Caches are cleared
+2025-07-22 07:55:10.029  INFO 10975 --- [scheduling-1] c.g.s.service.impl.AddressServiceImpl    : Caches are cleared
+2025-07-22 07:55:20.029  INFO 10975 --- [scheduling-1] c.g.s.service.impl.AddressServiceImpl    : Caches are cleared
+2025-07-22 07:55:30.029  INFO 10975 --- [scheduling-1] c.g.s.service.impl.AddressServiceImpl    : Caches are cleared
+2025-07-22 07:55:36.720  INFO 10975 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-07-22 07:55:36.720  INFO 10975 --- [SpringApplicationShutdownHook] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2025-07-22 07:55:36.902  INFO 10975 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-07-22 07:55:36.904  INFO 10975 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
