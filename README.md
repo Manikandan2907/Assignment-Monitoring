@@ -110,7 +110,7 @@ sudo systemctl enable --now grafana-server
 
 ---
 
-Refer to some of the Dashboards that we have create here - [Dashboards](./Dashboards)
+Refer to some of the Dashboards that we have created - [Dashboards](./Dashboards)
 
 ## 📦 Step 4: Install & Configure Loki
 
